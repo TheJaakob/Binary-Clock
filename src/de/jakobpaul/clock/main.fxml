@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.191" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.jakobpaul.clock.Controller">
+   <children>
+      <Circle fx:id="h4" fill="DODGERBLUE" layoutX="101.0" layoutY="95.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="h8" fill="DODGERBLUE" layoutX="101.0" layoutY="41.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="h2" fill="DODGERBLUE" layoutX="101.0" layoutY="151.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="h20" fill="DODGERBLUE" layoutX="47.0" layoutY="151.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="h10" fill="DODGERBLUE" layoutX="47.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="h1" fill="DODGERBLUE" layoutX="101.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="m20" fill="DODGERBLUE" layoutX="178.0" layoutY="151.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="m10" fill="DODGERBLUE" layoutX="178.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="m40" fill="DODGERBLUE" layoutX="178.0" layoutY="95.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="m4" fill="DODGERBLUE" layoutX="237.0" layoutY="95.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="m8" fill="DODGERBLUE" layoutX="237.0" layoutY="41.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="m2" fill="DODGERBLUE" layoutX="237.0" layoutY="151.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="m1" fill="DODGERBLUE" layoutX="237.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="s8" fill="DODGERBLUE" layoutX="374.0" layoutY="41.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="s40" fill="DODGERBLUE" layoutX="320.0" layoutY="95.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="s4" fill="DODGERBLUE" layoutX="374.0" layoutY="95.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="s2" fill="DODGERBLUE" layoutX="374.0" layoutY="151.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="s20" fill="DODGERBLUE" layoutX="320.0" layoutY="151.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="s1" fill="DODGERBLUE" layoutX="374.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="s10" fill="DODGERBLUE" layoutX="320.0" layoutY="200.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
